@@ -1,10 +1,10 @@
 # Prettify JSON
 
-[TODO. There will be project description]
+Скрипт для преобразования json файла в удобочитаемый вид.
 
 # Quickstart
 
-[TODO]
+Просто запустите python pprint_json.py <имя файла> и должно будет сработать.
 
 Example of script launch on Linux, Python 3.5:
 
