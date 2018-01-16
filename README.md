@@ -7,7 +7,8 @@ This was tested on windows, python 3.5+, text file should be in utf-8.
 You can just type: 
 ```
 python pprint_json.py <file name>
-```in command console.
+```
+in command console.
 
 # Functions
 As alternative, you can import functions from this script to use in your project:
