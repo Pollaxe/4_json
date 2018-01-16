@@ -4,7 +4,10 @@ Script to output json data in readable view to console.
 
 # Quickstart
 This was tested on windows, python 3.5+, text file should be in utf-8.
-You can just type python pprint_json.py <file name> in command console.
+You can just type: 
+```
+python pprint_json.py <file name>
+```in command console.
 
 # Functions
 As alternative, you can import functions from this script to use in your project:
@@ -20,7 +23,7 @@ pprint_json.pretty_print_json(json_content)
 ```
 
 # Output Example
-
+```
 [
     {
         "Cells": {
@@ -194,6 +197,7 @@ pprint_json.pretty_print_json(json_content)
         "Number": 3
     }
 ]
+```
 # Project Goals
 
 The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
