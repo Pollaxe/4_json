@@ -20,11 +20,6 @@ if __name__ == '__main__':
         json_content = load_data(file_path)
         pretty_print_json(json_content)
     except IndexError:
-        try:
-            file_path = input('Please input filename:')
-            json_content = load_data(file_path)
-            pretty_print_json(json_content)
-        except FileNotFoundError:
-            print('File not found, please try again.')
+        print('Please use syntax: "python pprint_json.py <filename>"')
     except FileNotFoundError:
         print('File not found, please try again.')
