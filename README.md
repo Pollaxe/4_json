@@ -4,12 +4,11 @@ Script to output json data in readable view to console.
 
 # Quickstart
 This was tested on windows, python 3.5+, text file should be in utf-8.
-You can just type: 
+You can just type in command console: 
 ```
 python pprint_json.py <file name>
 ```
-in command console.
-
+Example of json code you can get on [devman.org](https://devman.org/media/filer_public/1d/32/1d32132e-efa4-4a6c-bd32-312acc3710ad/alco_shops.json)
 # Functions
 As alternative, you can import functions from this script to use in your project:
 load_data(file_path) - just loads data from text file.
@@ -19,7 +18,7 @@ pretty_print_json(json_content) - uses loaded data and prints its readable versi
 ```python
 import pprint_json
 
-json_content = pprint_json.load_data('test.txt')
+json_content = pprint_json.load_data('alco_shops.json')
 pprint_json.pretty_print_json(json_content)
 ```
 
