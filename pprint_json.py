@@ -10,13 +10,13 @@ def load_data(file_path):
 
 def pretty_print_json(json_content):
     json_decoded = json.loads(json_content)
-    print(json.dumps(json_decoded,
-                     sort_keys=True,
-                     ensure_ascii=False,
-                     indent=4,
-                     separators=(',', ': ')
-                     )
-          )
+    print(json.dumps(
+        json_decoded,
+        sort_keys=True,
+        ensure_ascii=False,
+        indent=4,
+        separators=(',', ': ')
+        ))
 
 
 if __name__ == '__main__':
